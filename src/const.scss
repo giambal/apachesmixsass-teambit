@@ -1,0 +1,23 @@
+$bkgwhite : #fff;
+$bkgBeige : #ffe7d2;
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.fullContainer{
+
+  width: 100vw;
+  max-width: 100%;
+}
+
+.container{
+
+  width: 85%;
+  margin: auto;
+}

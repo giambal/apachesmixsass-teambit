@@ -1,0 +1,57 @@
+
+$fontBrown:#58402c;
+$fontBluehover:#30488F;
+$fontWhite: #fff;
+
+header{
+
+  div.nav{
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+    div.menu{
+
+      display: flex;
+      align-items: center;
+      color: $fontBrown;
+
+      span{
+
+        margin: 0 12px;
+        font-size: 1.2em;
+
+        &:hover{
+
+          color: $fontBluehover;
+          cursor: pointer;
+        }
+
+        }
+
+      #signUpMenu{
+
+        padding: 3px;
+        border-radius: 10px;
+        border: 1px solid $fontBluehover;
+        color: $fontBluehover;
+        background-color: $fontWhite;
+        cursor: pointer;
+
+        &:hover{
+          color:$fontWhite ;
+          background-color: $fontBluehover;
+        }
+
+        .fab{
+          margin-right: 2px;
+        }
+      }
+
+    }
+
+  }
+
+}

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.fullContainer {
+  width: 100vw;
+  max-width: 100%;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+header div.nav {
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+header div.nav div.menu {
+  display: flex;
+  align-items: center;
+  color: #58402c;
+}
+
+header div.nav div.menu span {
+  margin: 0 12px;
+  font-size: 1.2em;
+}
+
+header div.nav div.menu span:hover {
+  color: #30488F;
+  cursor: pointer;
+}
+
+header div.nav div.menu #signUpMenu {
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid #30488F;
+  color: #30488F;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+header div.nav div.menu #signUpMenu:hover {
+  color: #fff;
+  background-color: #30488F;
+}
+
+header div.nav div.menu #signUpMenu .fab {
+  margin-right: 2px;
+}
+
