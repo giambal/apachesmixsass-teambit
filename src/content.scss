@@ -73,6 +73,7 @@
   color: $fontBrown;
 
   .generalCont{
+    border-bottom: 1px solid gray;
 
     .secondImgCont{
       width: 100%;
@@ -167,6 +168,50 @@
       h2{
 
         margin-top: 20px;
+      }
+    }
+  }
+}
+
+
+.fourth{
+  background-color: $bkgwhite;
+  color: $fontBrown;
+  padding: $padding;
+
+  &:after{
+    content:"";
+    clear: both;
+    display: table;
+  }
+
+  .chatCont{
+
+    float: left;
+    width:50%;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  .chatTitle{
+    float: left;
+    width: 25%;
+    margin-left: 50px;
+
+    p{
+      margin: 20px 0;
+      font-size: 1.5em;
+    }
+
+    #learnmore{
+      color: $fontBluehover;
+    }
+
+    .notchatimg{
+      img{
+        width: 80%;
       }
     }
   }

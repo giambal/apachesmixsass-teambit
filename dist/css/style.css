@@ -20,7 +20,6 @@
   margin: auto;
   text-align: center;
   padding: 70px 0;
-  border-bottom: 1px solid gray;
 }
 
 .titleCont {
@@ -139,6 +138,10 @@ header div.nav div.menu #signUpMenu .fab {
   color: #58402c;
 }
 
+.second .generalCont {
+  border-bottom: 1px solid gray;
+}
+
 .second .generalCont .secondImgCont {
   width: 100%;
   display: flex;
@@ -222,5 +225,45 @@ header div.nav div.menu #signUpMenu .fab {
 
 .third .generalCont .imgCont2 h2 {
   margin-top: 20px;
+}
+
+.fourth {
+  background-color: #fff;
+  color: #58402c;
+  padding: 70px 0;
+}
+
+.fourth:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.fourth .chatCont {
+  float: left;
+  width: 50%;
+}
+
+.fourth .chatCont img {
+  width: 100%;
+}
+
+.fourth .chatTitle {
+  float: left;
+  width: 25%;
+  margin-left: 50px;
+}
+
+.fourth .chatTitle p {
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+
+.fourth .chatTitle #learnmore {
+  color: #30488F;
+}
+
+.fourth .chatTitle .notchatimg img {
+  width: 80%;
 }
 
