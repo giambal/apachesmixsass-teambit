@@ -1,6 +1,10 @@
 
 header{
 
+  position: fixed;
+  z-index: 100;
+  background-color: $bkgwhite;
+
   div.nav{
     height: 80px;
     padding: 10px;
