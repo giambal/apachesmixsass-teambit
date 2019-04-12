@@ -15,6 +15,19 @@
   margin: auto;
 }
 
+.generalCont {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 70px 0;
+  border-bottom: 1px solid gray;
+}
+
+.titleCont {
+  width: 70%;
+  margin: auto;
+}
+
 header div.nav {
   height: 80px;
   padding: 10px;
@@ -55,5 +68,159 @@ header div.nav div.menu #signUpMenu:hover {
 
 header div.nav div.menu #signUpMenu .fab {
   margin-right: 2px;
+}
+
+.first {
+  background-color: #fff;
+  color: #58402c;
+}
+
+.first .container {
+  display: flex;
+}
+
+.first .container .motto {
+  width: 40%;
+  margin: 100px 0;
+}
+
+.first .container .motto h1 {
+  margin-bottom: 8%;
+  font-size: 3em;
+}
+
+.first .container .motto h3 {
+  margin-bottom: 8%;
+  font-size: 1.5em;
+}
+
+.first .container .motto span {
+  font-size: 0.8em;
+  color: gray;
+  margin: 0 8px 0 0;
+}
+
+.first .container .motto span.signUp {
+  background-color: #30488F;
+  padding: 5px;
+  border: #30488F;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.first .container .motto span.signUp:hover {
+  background-color: #1d2b56;
+}
+
+.first .container .motto span.signUp .fab {
+  margin-right: 5px;
+}
+
+.first .container .motto p {
+  margin-top: 20px;
+}
+
+.first .container .motto p:hover {
+  color: #30488F;
+  cursor: pointer;
+}
+
+.first .container img {
+  width: 50%;
+  height: 30%;
+  margin: 100px 0;
+  margin-left: 12%;
+}
+
+.second {
+  background-color: #ffe7d2;
+  color: #58402c;
+}
+
+.second .generalCont .secondImgCont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.second .generalCont .secondImgCont div {
+  width: 50%;
+  height: 50%;
+}
+
+.second .generalCont .secondImgCont div img {
+  width: 50%;
+  height: 50%;
+}
+
+.second .generalCont .secondImgCont div #specialImg {
+  width: 40%;
+  height: 40%;
+}
+
+.second .generalCont .secondImgCont p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.second .generalCont .imgCont2 {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.second .generalCont .imgCont2 img {
+  width: 50%;
+  height: 50%;
+}
+
+.third {
+  background-color: #ffe7d2;
+  color: #58402c;
+}
+
+.third .generalCont .thirdImgCont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.third .generalCont .thirdImgCont div {
+  width: 50%;
+  height: 50%;
+}
+
+.third .generalCont .thirdImgCont div img {
+  width: 50%;
+  height: 50%;
+}
+
+.third .generalCont .thirdImgCont div #specialImg2 {
+  width: 20%;
+  height: 20%;
+}
+
+.third .generalCont .thirdImgCont p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.third .generalCont .imgCont2 {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.third .generalCont .imgCont2 img {
+  width: 50%;
+  height: 50%;
+}
+
+.third .generalCont .imgCont2 h2 {
+  margin-top: 20px;
 }
 

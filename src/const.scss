@@ -1,6 +1,12 @@
 $bkgwhite : #fff;
 $bkgBeige : #ffe7d2;
 
+$fontBrown:#58402c;
+$fontBluehover:#30488F;
+$fontWhite: #fff;
+
+$marginFirst: 100px 0 ;
+$padding: 70px 0;
 
 *{
   box-sizing: border-box;
@@ -19,5 +25,19 @@ $bkgBeige : #ffe7d2;
 .container{
 
   width: 85%;
+  margin: auto;
+}
+
+
+.generalCont{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding:$padding;
+  border-bottom: 1px solid gray;
+}
+
+.titleCont{
+  width: 70%;
   margin: auto;
 }

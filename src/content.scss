@@ -1,0 +1,173 @@
+.first {
+  background-color: $bkgwhite;
+  color: $fontBrown;
+
+  .container{
+    display: flex;
+
+    .motto{
+
+      width: 40%;
+      margin: $marginFirst;
+
+
+
+      h1{
+        margin-bottom: 8%;
+        font-size: 3em;
+      }
+
+      h3{
+        margin-bottom: 8%;
+        font-size: 1.5em;
+
+      }
+
+      span{
+        font-size: 0.8em;
+        color: gray;
+        margin: 0 8px 0 0;
+      }
+
+      span.signUp{
+        background-color: $fontBluehover;
+        padding: 5px;
+        border: $fontBluehover;
+        border-radius:10px;
+        color: $fontWhite;
+        font-size: 1.3em;
+        cursor: pointer;
+
+        &:hover{
+          background-color: darken($fontBluehover,15%);
+        }
+
+        .fab{
+          margin-right: 5px;
+        }
+
+      }
+      p{
+        margin-top:20px;
+
+        &:hover{
+          color: $fontBluehover;
+          cursor: pointer;
+        }
+      }
+    }
+
+    img{
+
+      width: 50%;
+      height: 30%;
+      margin: $marginFirst;
+      margin-left: 12%;
+    }
+  }
+
+}
+
+.second{
+  background-color: $bkgBeige;
+  color: $fontBrown;
+
+  .generalCont{
+
+    .secondImgCont{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+
+      div {
+        width: 50%;
+        height: 50%;
+
+
+        img{
+
+          width: 50%;
+          height: 50%;
+        }
+
+        #specialImg{
+          width: 40%;
+          height:40%;
+        }
+
+      }
+
+      p{
+        margin-top: 20px;
+        text-align: center;
+      }
+    }
+
+    .imgCont2{
+      width:50%;
+      margin: auto;
+      margin-top:50px;
+
+      img{
+        width: 50%;
+        height: 50%;
+      }
+    }
+  }
+}
+
+
+.third{
+  background-color: $bkgBeige;
+  color: $fontBrown;
+
+  .generalCont{
+
+    .thirdImgCont{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+
+      div {
+        width: 50%;
+        height: 50%;
+
+
+        img{
+
+          width: 50%;
+          height: 50%;
+        }
+
+        #specialImg2{
+          width: 20%;
+          height:20%;
+        }
+
+      }
+
+      p{
+        margin-top: 20px;
+        text-align: center;
+      }
+    }
+
+    .imgCont2{
+      width:50%;
+      margin: auto;
+      margin-top:50px;
+
+      img{
+        width: 50%;
+        height: 50%;
+      }
+
+      h2{
+
+        margin-top: 20px;
+      }
+    }
+  }
+}
