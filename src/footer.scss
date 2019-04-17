@@ -1,0 +1,42 @@
+.footer1{
+  padding: $padding;
+  background-color: $bkgBeige;
+  color: $fontBrown;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1{
+    font-size:2.3em;
+  }
+
+  .smsCont{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin:50px 0;
+    padding: 30px;
+    width: 40%;
+    text-align: left;
+
+    p{
+      margin: 20px 0;
+    }
+
+    .foundersCont{
+
+      display: flex;
+      justify-content:flex-start;
+
+      img{
+        max-width: 50px;
+      }
+
+      p{
+        margin: 5px;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
